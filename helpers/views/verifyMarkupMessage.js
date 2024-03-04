@@ -73,7 +73,7 @@ const createVerifyMarkupMessage = () => {
         <div class="container">
             <h1>Thank you! Email verification succes</h1>
             <p>Lets start to use crypto-helper</p>
-            <p><a class="button" href="https://friends-xw7e.vercel.app/">To login</a></p>
+            <p><a class="button" href="https://friends-psi.vercel.app/">To login</a></p>
         </div>
     </body>
     </html> 
