@@ -63,7 +63,7 @@ const createEmailIsVerifiedMessage = () => {
             }
 
             .text {
-                 color: #AA4639;
+                 color: #802115;
                 text-align: center;
                 font-size: 22px;
             }
