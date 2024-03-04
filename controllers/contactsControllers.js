@@ -1,5 +1,4 @@
 const { HttpError, ctrlWrapper } = require("../helpers");
-const { Asset } = require("../models/asset");
 
 const getAll = async (req, res) => {
   const { _id: owner } = req.user;
@@ -79,12 +78,12 @@ const post = async (req, res) => {
   res.status(201).json(result);
 };
 
-module.exports = {
-  getAll: ctrlWrapper(getAll),
-  getById: ctrlWrapper(getById),
-  update: ctrlWrapper(update),
-  updateAllAssets: ctrlWrapper(updateAllAssets),
-  remove: ctrlWrapper(remove),
-  updateFavorite: ctrlWrapper(updateFavorite),
-  post: ctrlWrapper(post),
-};
+// module.exports = {
+//   getAll: ctrlWrapper(getAll),
+//   getById: ctrlWrapper(getById),
+//   update: ctrlWrapper(update),
+//   updateAllAssets: ctrlWrapper(updateAllAssets),
+//   remove: ctrlWrapper(remove),
+//   updateFavorite: ctrlWrapper(updateFavorite),
+//   post: ctrlWrapper(post),
+// };

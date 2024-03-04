@@ -17,7 +17,7 @@ const createVerifyMarkupMessage = () => {
                   font-family: "Montserrat", sans-serif;
                 margin: 0;
                 padding: 0;
-                background-color: #1E293B;
+                background-color: #255C69;
             }
 
             .container {
@@ -25,18 +25,18 @@ const createVerifyMarkupMessage = () => {
                 max-width: 600px;
                 margin: 15% auto;
                 padding: 20px;
-                background-color: #0F172A;
+                background-color: #012B35;
                 border-radius: 12px;
             }
 
             h1 {
-                color: #94A3B8;
+                color: #D4B46A;
                 text-align: center;
                 margin-bottom: 20px;
             }
 
             p {
-                color: #94A3B8;
+                color: #FFE5AA;
                 font-size:18px;
                 margin-bottom: 10px;
                 text-align: center;
@@ -47,8 +47,8 @@ const createVerifyMarkupMessage = () => {
                 display: block;
                 width: 160px;
                 font-size: 18px;
-                background-color: #007bff;
-                    color: white;
+                background-color: #AA8739;
+                    color: #FFE5AA;
                 text-decoration: none;
                 text-align: center;
                 margin: 30px auto 0px;
@@ -58,11 +58,12 @@ const createVerifyMarkupMessage = () => {
             }
 
             .button:hover {
-                     color: white;
-                background-color: #0056b3;
+                     color: #FFE5AA;
+                background-color: #805F15;
             }
 
             .text {
+                 color: #AA4639;
                 text-align: center;
                 font-size: 22px;
             }
