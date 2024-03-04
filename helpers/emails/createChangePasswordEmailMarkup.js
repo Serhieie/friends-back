@@ -79,7 +79,7 @@ const createChangePasswordEmailMarkup = (changePasswordCode) => {
         <p>Dear User,</p>
         <p>You have received this email because someone (possibly you) trying to change password.</p>
         <p>To complete changing password, please click the button below to change your password:</p>
-        <p><a class="button" target="_blank" href="https://friends-psi.vercel.app/changePassword/${changePasswordCode}">Change Password</a></p>
+        <p><a class="button" target="_blank" href="https://friends-xw7e.vercel.app/${changePasswordCode}">Change Password</a></p>
     </div>
      <p class="text" >If you did not try to change password on our website, you can safely ignore this email.</p>
      <p class="text">Thank you!</p></div>
