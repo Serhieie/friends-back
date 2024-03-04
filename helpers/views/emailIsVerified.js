@@ -73,7 +73,7 @@ const createEmailIsVerifiedMessage = () => {
         <div class="container">
             <h1>Your email already verified</h1>
             <p>Lets start to use crypto-helper</p>
-            <p><a class="button" href="https://serhieie.github.io/crypto-helper/">To login</a></p>
+            <p><a class="button" href="https://friends-psi.vercel.app/">To login</a></p>
         </div>
     </body>
     </html> 
